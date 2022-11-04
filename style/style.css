@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: url(img/banner.jpg);
+    background-position: 0; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50em;
+}
+
+header{
+    background: url(img/bg_fruit.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50em;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+nav{
+    margin-left: 20em;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 10em;
+    height: 5em;
+}
+
+i{
+    color: #a0cb23;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 60px;
+    padding: 7px;
+    margin: 3px;
+}
+
+.menu{
+    width: 70%;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    justify-content: flex-end;
+}
+
+
+    
