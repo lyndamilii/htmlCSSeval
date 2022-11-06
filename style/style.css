@@ -5,15 +5,19 @@
 
 
 body{
+    flex-direction: column;
     background: url(img/banner.jpg);
     background-position: 0; 
     background-repeat: no-repeat;
     width: 100%;
     height: 50em;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
     background: url(img/bg_fruit.png);
+    background-size: 20em;
     background-repeat: no-repeat;
     width: 100%;
     height: 50em;
@@ -23,16 +27,24 @@ header{
     display: flex;
 }
 
+.column {
+    flex-direction: column;
+}
+
+p{
+    font-size: 40px;
+}
 
 
 nav{
-    margin-left: 20em;
+    margin-left: 10em;
     justify-content: space-around;
 }
 
 .logo {
     width: 10em;
-    height: 5em;
+    height: 4em;
+
 }
 
 i{
@@ -40,18 +52,230 @@ i{
     background-color: white;
     border: 1px solid white;
     border-radius: 60px;
-    padding: 7px;
-    margin: 3px;
+    padding: 10px;
+    margin: 8px;
 }
 
 .menu{
-    width: 70%;
+    width: 50px;
     height: 3em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
-    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    width: 5em;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.test{
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 
     
+header div:nth-child(2) {
+    margin-top: 15em;
+    margin-left: 23em;
+    align-items: flex-end;
+  }
+
+.texte{
+    width: 30em;
+}
+
+.texte :first-child{
+    font-size: 20px;
+    color: #a0cb23;
+    margin-bottom: 1em;
+  }
+
+.texte :nth-child(2){
+    font-size: 55px;
+}
+
+.texte :nth-child(3){
+    padding-top: 1em;
+    font-size: 20px;
+}
+
+
+.btn {
+    margin-top: 3em;
+}
+
+.btn :first-child{
+    color: white;
+    font-size: 14px;
+    border:solid 2px #a0cb23 ;
+    background-color: #a0cb23;
+    width: 13em;
+    height: 4em;
+    margin: 3px;
+    margin-right: 1em;
+
+}
+
+.btn :last-child{
+    color: white;
+    font-size: 14px;
+    width: 13em;
+    height: 4em;
+    margin: 3px;
+    border:solid 2px #14462d;
+    background-color: #14462d;
+}
+
+.cat1 {
+    font-size: 25px;
+    color: #f6fafb;
+    width: 13em;
+    height: 8em;
+    margin-top: 15em;
+    margin-bottom: 5em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-top: 3em;
+    background: linear-gradient(-70deg, #95dcd6, #92ddd8);
+
+}
+
+
+.cat{
+    width: 80%;
+    margin: auto;
+}
+
+/*
+
+.cat :first-child{
+    width: 20em;
+    background: linear-gradient(-70deg, #95dcd6, #92ddd8);
+}
+
+.cat :nth-child(2){
+    width: 20em;
+    background: linear-gradient(-70deg, #f58313,#fb9823);
+}
+
+.cat :nth-child(3){
+    width: 20em;
+    background: linear-gradient(-70deg, #a0cb23,#afe223);
+}
+
+*/
+
+.bas{
+    color: #f6fafb;
+    border-left: 6px solid yellow;
+    width: 60%;
+    height: 15em;
+    background-color: #afe223;
+    margin: auto;
+    margin-bottom: 10em;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.imgF{
+    width: 25em;
+}
+
+.leg{
+    align-items: flex-end;
+    margin-top: -5.6em;
+    margin-right: -6em;
+    margin-left: 4em;
+}
+
+
+.cat2 {
+    font-size: 25px;
+    color: #f6fafb;
+    width: 13em;
+    height: 8em;
+    margin-top: 15em;
+    margin-bottom: 5em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-top: 3em;
+    background: linear-gradient(-70deg, #f58313, #fb9823);
+
+}
+
+.boiss {
+    align-items: flex-end;
+    margin-top: -5.6em;
+    margin-right: -6em;
+    margin-left: 6em;
+
+}
+
+.cat3 {
+    font-size: 25px;
+    color: #f6fafb;
+    width: 13em;
+    height: 8em;
+    margin-top: 15em;
+    margin-bottom: 5em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-top: 3em;
+    background: linear-gradient(-70deg, #a0cb23, #afe223);
+}
+
+.beaut {
+    align-items: flex-end;
+    margin-top: -6em;
+    margin-right: -6em;
+    margin-left: 6em;
+}
+
+.titresM{
+    flex-direction: column;
+    text-align: center;
+}
+
+.titresM:first-child{
+    font-size: 20px;
+    color: #a0cb23;
+    margin-bottom: 1em;
+}
+
+.titresM:nth-child(2){
+    font-size: 55px;
+}
+
+.contP{
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.produits{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.P1{
+    flex-direction: column;
+    width: 20em;
+    height: 30em;
+    margin-bottom: 5em;
+    border: 1px solid #f6fafb;
+    background-color: #f6fafb;
+}

@@ -10,6 +10,10 @@
 
     <link rel="stylesheet" href="style/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/b4f9815966.js" crossorigin="anonymous"></script>
 
 
@@ -22,108 +26,231 @@
 <body class="flex bg">
 
 
-<!--==================================DÉBUT HEADER==========================================-->
-                    <!--3 titres et 2 boutons sur la gauche, 
+    <!--==================================DÉBUT HEADER==========================================-->
+    <!--3 titres et 2 boutons sur la gauche, 
                       image sac renversé droite -->
-<!--========================================================================================-->
+    <!--========================================================================================-->
 
-<header class="flex">
+    <header class="flex column">
 
-    <div class="menu flex">
+        <div class="menu flex">
 
             <!--LOGO--->
             <a href="Groxi.html" title="GroxiStore">
                 <img class="logo" alt="GroxiStore" src="style/img/logo.png">
             </a>
 
-<!--==================================DÉBUT NAV=============================================-->
-                    <!--barre de navigation logo à gauche, 
+            <!--==================================DÉBUT NAV=============================================-->
+            <!--barre de navigation logo à gauche, 
                       -Accueil-A propos-Boutique-Pages-Blog-Contact-
                         ICONES à droite: loupe,profil,favori,panier -->
-<!--========================================================================================-->
+            <!--========================================================================================-->
 
-    <nav class="flex">
+            <nav class="flex">
 
-        <!----==MENU==---->
-        <div class="flex">
+                <!----==MENU==---->
 
-            <!--accueil-->
-            <a href="Groxi.html" title="Page d'accueil">
-                Accueil
-            </a>
-            <!--A propos-->
-            <a href="Apropos.html" title="A propos de groxi">
-                A propos
-            </a>
-            <!--Boutique-->
-            <a href="Boutique.html" title="Boutique Groxi">
-                Boutique
-            </a >
-            <!--Pages-->
-            <a href="Pages.html" title="Pages">
-                Pages
-            </a>
-            <!--Blog-->
-            <a href="BlogGroxi.html" title="Blog Groxi">
-                Blog
-            </a>
-            <!--Contact-->
-            <a href="ContactGroxi.html" title="Contacter Groxi">
-                Contact
-            </a>
+                <ul class="flex test">
+
+                    <!--Accueil-->
+                    <li>
+                        <a href="Groxi.html" title="Page d'accueil">
+                            Accueil
+                        </a>
+                    </li>
+                    <!--A propos-->
+                    <li>
+                        <a href="Apropos.html" title="A propos de groxi">
+                            A propos
+                        </a>
+                    </li>
+                    <!--Boutique-->
+                    <li>
+                        <a href="Boutique.html" title="Boutique Groxi">
+                            Boutique
+                        </a>
+                    </li>
+                    <!--Pages-->
+                    <li>
+                        <a href="Pages.html" title="Pages">
+                            Pages
+                        </a>
+                    </li>
+                    <!--Blog-->
+                    <li>
+                        <a href="BlogGroxi.html" title="Blog Groxi">
+                            Blog
+                        </a>
+                    </li>
+                    <!--Contact-->
+                    <li>
+                        <a href="ContactGroxi.html" title="Contacter Groxi">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <!--==================================FIN NAV===============================================-->
+
+            <!--ICONES-->
+            <div class="icn flex">
+                <!--Recherche-->
+                <a href="recherche.html" title="Recherche">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <!--Profil-->
+                <a href="monprofil.html" title="MonProfil">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+                <!--Favoris-->
+                <a href="favoris.html" title="mes favoris">
+                    <i class="fa-solid fa-heart"></i>
+                </a>
+                <!--Panier-->
+                <a href="panier.html" title="mon panier">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+
+            </div>
+
+        </div>
+        
+
+        <div class="texte">
+            <h2>Bienvenue sur notre épicerie en ligne</h2>
+            <h1>Boutique en ligne de produits frais</h1>
+            <h2>Votre click & collect près de chez vous</h2>
+
+            <div class="btn flex">
+                <input type="button" value="FAIRE SES COURSES">
+                <input type="button" value="EN SAVOIR PLUS">
+            </div>
 
         </div>
 
-    </nav>
+    </header>
 
-        <!--==================================FIN NAV===============================================-->
-
-        <!--ICONES-->
-        <div class="icn flex">
-            <!--Recherche-->
-            <a href="recherche.html" title="Recherche" >
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
-            <!--Profil-->
-            <a href="monprofil.html" title="MonProfil">
-                <i class="fa-solid fa-user"></i>
-            </a>
-            <!--Favoris-->
-            <a href="favoris.html" title="mes favoris">
-                <i class="fa-solid fa-heart"></i>
-            </a>
-            <!--Panier-->
-            <a href="panier.html" title="mon panier">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </a>
-
-        </div>
-
-    </div>
-
-</header>
-
-<!--==================================FIN HEADER============================================-->
+    <!--==================================FIN HEADER============================================-->
 
 
-<!--===================================================================================-->
+    <!--===================================================================================-->
 
     <main>
 
+        <div class="cat flex">
+
+            <div class="cat1">
+                Trouvez vos <br> légumes <br> préférés
+                <img class="leg flex" src="style/img/legumes.png">
+
+            </div>
+
+            <div class="cat2">
+                Notre meilleure <br> sélection de <br> boissons
+                <img class="boiss flex" src="style/img/boisson.png">
+            </div>
+
+            <div class="cat3">
+                Produits <br> de beauté et <br> santé
+                <img class="beaut flex" src="style/img/beaute.png">
+            </div>
+
+        </div>
+
+
+        <div class="contP">
+            <!--titres-->
+            <div class="titresM">
+                <h2>Les plus populaires</h2>
+                <h3>Produits dans le vent</h3>
+            </div>
+            <!--première rangée-->
+            <div class="produits flex">
+                <!--1er produit-->
+                <div class="P1">
+                    <img src="style/img/beef.png" alt="boeuf">
+                    <h3>Steak de boeuf</h3>
+                    <span>15€</span>
+                    <span>12€</span>
+                    <input type="button" value="AJOUTER">
+                </div>
+                <!--2eme produit-->
+                <div class="P1">
+                    <img src="style/img/broccoli.png" alt="broccoli">
+                    <h3>Broccoli</h3>
+                    <span>20€</span>
+                    <span>15€</span>
+                    <input type="button" value="AJOUTER">
+                </div>
+                <!--3eme produit-->
+                <div class="P1">
+                    <img src="style/img/fraises.png" alt="fraises">
+                    <h3>Fraises</h3>
+                    <span>30€</span>
+                    <span>20€</span>
+                    <input type="button" value="AJOUTER">
+                </div>
+            </div>
+            <!--deuxième rangée-->
+            <div class="produits flex">
+                <!--1er produit-->
+                <div class="P1">
+                    <img src="style/img/miel.png" alt="miel">
+                    <h3>Miel frais</h3>
+                    <span>50€</span>
+                    <span>40€</span>
+                    <input type="button" value="AJOUTER">
+                </div>
+                <!--2eme produit-->
+                <div class="P1">
+                    <img src="style/img/lait.png" alt="lait">
+                    <h3>Lait du jour</h3>
+                    <span>10€</span>
+                    <span>8€</span>
+                    <input type="button" value="AJOUTER">
+                </div>
+                <!--3eme produit-->
+                <div class="P1">
+                    <img src="style/img/mangue.png" alt="mangue">
+                    <h3>Boisson à la mangue</h3>
+                    <span>22€</span>
+                    <span>18€</span>
+                    <input type="button" value="AJOUTER">
+                </div>
+
+            </div>
+        </div>
+
     </main>
 
-<!--===================================================================================-->
+    <!--===================================================================================-->
 
 
-<!--===================================================================================-->
+    <!--===================================================================================-->
 
     <footer>
 
+        <div class="bas flex"> 
+            <div>
+                <p>50%</p>
+                <a href="index.html" title="J'en rpofite">
+                    J'EN PROFITE
+                </a>
+            </div>
+            
+            <p>Les produits <br> populaires</p>
+
+            <img class="imgF" src="style/img/panier.jpg" alt="les produits populaires">
+        </div>
+
     </footer>
 
-<!--===================================================================================-->
+    <!--===================================================================================-->
 
-    
+
 </body>
 
 
