@@ -25,7 +25,11 @@ body{
     height: 50em;
     font-family: 'Amatic SC', cursive;
     font-family: 'Roboto', sans-serif;
+    font-weight: 200;
 }
+
+h1 {font-weight: 400;}
+h3 {font-weight: 400;}
 
 /* header*/
 
@@ -191,7 +195,7 @@ header div:nth-child(2) {
     border-left: 6px solid yellow;
     width: 60%;
     height: 15em;
-    background-color: #afe223;
+    background: linear-gradient(-50deg, #a0cb23, #afe223);
     margin: auto;
     margin-bottom: 10em;
     justify-content: space-between;
@@ -218,8 +222,8 @@ header div:nth-child(2) {
 
 .imgF{
     width: 22.5em;
-    border-top-left-radius: 500px;
-    border-left: 25px solid #a0cb23;
+    border-top-left-radius: 700px;
+    border-left: 25px solid #afe223;
 }
 
 .leg{
@@ -308,6 +312,10 @@ header div:nth-child(2) {
     background-color: #f6fafb;
 }
 
+.P1:hover{
+    border: 1px solid #a0cb23;
+}
+
 .imgP{
     width: 15em;
     margin-left: auto;
@@ -361,6 +369,11 @@ header div:nth-child(2) {
     margin: 16px;
 }
 
+.fav:hover{
+    color: white;
+    background-color: #a0cb23;
+}
+
 .JP{
     color: #f6fafb;
     font-size: 16px;
@@ -405,6 +418,11 @@ header div:nth-child(2) {
     margin-top: 1em;
     border:solid 2px #14462d;
     background-color: #14462d;
+}
+
+.btnP:hover{
+    border: solid 2px #a0cb23;
+    background-color: #a0cb23;
 }
 
 .cacahuete{
@@ -458,5 +476,27 @@ header div:nth-child(2) {
 }
 
 .txtF{
-    text-align: center;
+    justify-content: baseline;
+    margin-left: 5em;
+
+}
+
+.JPF{
+    text-align: left;
+    font-size: 17px;
+    color: white;
+    margin-top: 1em;
+}
+
+.Preduc{
+    font-size: 50px;
+    color: yellow;
+    margin-bottom: 0.5em;
+}
+
+.Ptxt{
+    font-size: 17px;
+    color: white;
+    margin-top: 2em;
+    margin-left: 0.5em;
 }
