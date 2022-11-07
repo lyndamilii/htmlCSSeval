@@ -199,10 +199,27 @@ header div:nth-child(2) {
 
 }
 
+
+.notif{
+    border-radius: 100%;
+    border: 1px solid #14462d;
+    background-color: #14462d;
+    color: white;
+    width: 1em;
+    height: 1em;
+    font-size: 10px;
+    text-align: center;
+    padding: 1px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 7px;
+
+}
+
 .imgF{
     width: 22.5em;
-    border-top-left-radius: 300px;
-    border-left: 30px solid #a0cb23;
+    border-top-left-radius: 500px;
+    border-left: 25px solid #a0cb23;
 }
 
 .leg{
@@ -313,6 +330,27 @@ header div:nth-child(2) {
     margin-top: -1em;
 }
 
+.imgP4{
+    width: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1em;
+}
+
+.imgP5{
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2em;
+}
+
+.imgP6{
+    width: 13em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1em;
+}
+
 .fav{
     color: grey;
     border: 1px solid white;
@@ -330,8 +368,14 @@ header div:nth-child(2) {
 }
 
 .testet{
-    justify-content: end;
+    justify-content: flex-end;
 }
+
+.testet1{
+    justify-content: space-between;
+}
+
+
 
 .h2M{
     font-size: 17px;
@@ -400,4 +444,19 @@ header div:nth-child(2) {
 .NP{
     color: #a0cb23 ;
     font-size: 20px;
+}
+
+.hot{
+    border: 1px solid #da485b;
+    background-color: #da485b;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 6px;
+    width: 2.5em;
+    height: 1em;
+}
+
+.txtF{
+    text-align: center;
 }
