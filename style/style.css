@@ -1,9 +1,21 @@
+
+
+/* initialisaton*/
+
 *{
     margin: 0;
     padding: 0;
 }
 
+.flex{
+    display: flex;
+}
 
+.column {
+    flex-direction: column;
+}
+
+/* body*/
 body{
     flex-direction: column;
     background: url(img/banner.jpg);
@@ -15,6 +27,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* header*/
+
 header{
     background: url(img/bg_fruit.png);
     background-size: 20em;
@@ -23,18 +37,11 @@ header{
     height: 50em;
 }
 
-.flex{
-    display: flex;
-}
-
-.column {
-    flex-direction: column;
-}
-
 p{
     font-size: 40px;
 }
 
+/* navigation*/
 
 nav{
     margin-left: 10em;
@@ -47,7 +54,7 @@ nav{
 
 }
 
-i{
+.iT{
     color: #a0cb23;
     background-color: white;
     border: 1px solid white;
@@ -142,7 +149,7 @@ header div:nth-child(2) {
     font-size: 25px;
     color: #f6fafb;
     width: 13em;
-    height: 8em;
+    height: 9em;
     margin-top: 15em;
     margin-bottom: 5em;
     margin-right: 1em;
@@ -154,8 +161,10 @@ header div:nth-child(2) {
 
 
 .cat{
-    width: 80%;
+    width: 60%;
     margin: auto;
+    justify-content: space-between;
+
 }
 
 /*
@@ -191,12 +200,14 @@ header div:nth-child(2) {
 }
 
 .imgF{
-    width: 25em;
+    width: 22.5em;
+    border-top-left-radius: 300px;
+    border-left: 30px solid #a0cb23;
 }
 
 .leg{
     align-items: flex-end;
-    margin-top: -5.6em;
+    margin-top: -6.9em;
     margin-right: -6em;
     margin-left: 4em;
 }
@@ -206,7 +217,7 @@ header div:nth-child(2) {
     font-size: 25px;
     color: #f6fafb;
     width: 13em;
-    height: 8em;
+    height: 9em;
     margin-top: 15em;
     margin-bottom: 5em;
     margin-right: 1em;
@@ -218,7 +229,7 @@ header div:nth-child(2) {
 
 .boiss {
     align-items: flex-end;
-    margin-top: -5.6em;
+    margin-top: -6.6em;
     margin-right: -6em;
     margin-left: 6em;
 
@@ -228,7 +239,7 @@ header div:nth-child(2) {
     font-size: 25px;
     color: #f6fafb;
     width: 13em;
-    height: 8em;
+    height: 9em;
     margin-top: 15em;
     margin-bottom: 5em;
     margin-right: 1em;
@@ -239,7 +250,7 @@ header div:nth-child(2) {
 
 .beaut {
     align-items: flex-end;
-    margin-top: -6em;
+    margin-top: -7.7em;
     margin-right: -6em;
     margin-left: 6em;
 }
@@ -260,7 +271,7 @@ header div:nth-child(2) {
 }
 
 .contP{
-    width: 80%;
+    width: 60%;
     margin: auto;
     flex-direction: column;
 }
@@ -273,9 +284,120 @@ header div:nth-child(2) {
 
 .P1{
     flex-direction: column;
-    width: 20em;
+    width: 22em;
     height: 30em;
     margin-bottom: 5em;
     border: 1px solid #f6fafb;
     background-color: #f6fafb;
+}
+
+.imgP{
+    width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imgP2{
+    width: 13em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1em;
+
+}
+
+.imgP3{
+    width: 13em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1em;
+}
+
+.fav{
+    color: grey;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: white;
+    justify-content: end;
+    padding: 10px;
+    margin: 16px;
+}
+
+.JP{
+    color: #f6fafb;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.testet{
+    justify-content: end;
+}
+
+.h2M{
+    font-size: 17px;
+    color: #a0cb23;
+    margin-bottom: 1em;
+}
+
+.h3M{
+    font-size: 37px;
+    color: black;
+    margin-bottom: 1em;
+}
+
+.PB{
+    margin-top: 5em;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnP{
+    margin: auto;
+    color: white;
+    font-size: 14px;
+    width: 9em;
+    height: 3em;
+    margin-top: 1em;
+    border:solid 2px #14462d;
+    background-color: #14462d;
+}
+
+.cacahuete{
+    width: 10em;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.CJ{
+    color: rgb(255, 217, 0);
+    margin-right: 0.3em;
+}
+
+.CG{
+    color: grey;
+}
+
+.H3PP{
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
+.prix{
+    width: 10em;
+    justify-content: center;
+}
+
+.AP{
+    color: rgba(128, 128, 128, 0.696);
+    text-decoration: line-through;
+    font-size: 20px;
+    margin-right: 1em;
+}
+
+.NP{
+    color: #a0cb23 ;
+    font-size: 20px;
 }

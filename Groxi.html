@@ -27,8 +27,9 @@
 
 
     <!--==================================DÉBUT HEADER==========================================-->
-    <!--3 titres et 2 boutons sur la gauche, 
-                      image sac renversé droite -->
+                            <!--3 titres et 2 boutons sur la gauche, 
+                                    image sac renversé droite 
+                                    nav-->
     <!--========================================================================================-->
 
     <header class="flex column">
@@ -93,25 +94,25 @@
 
             </nav>
 
-            <!--==================================FIN NAV===============================================-->
+            <!--==================================FIN NAV========================================-->
 
             <!--ICONES-->
             <div class="icn flex">
                 <!--Recherche-->
                 <a href="recherche.html" title="Recherche">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-magnifying-glass iT"></i>
                 </a>
                 <!--Profil-->
                 <a href="monprofil.html" title="MonProfil">
-                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-user iT"></i>
                 </a>
                 <!--Favoris-->
                 <a href="favoris.html" title="mes favoris">
-                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart iT"></i>
                 </a>
                 <!--Panier-->
                 <a href="panier.html" title="mon panier">
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-cart-shopping iT"></i>
                 </a>
 
             </div>
@@ -134,27 +135,37 @@
     </header>
 
     <!--==================================FIN HEADER============================================-->
-
-
-    <!--===================================================================================-->
+    <!--========================================================================================-->
 
     <main>
 
         <div class="cat flex">
 
             <div class="cat1">
-                Trouvez vos <br> légumes <br> préférés
+                Trouvez vos <br> légumes <br> préférés <br><br>
+                
+                <a class="JP" href="index.html" title="jen profite"> 
+                    J'EN PROFITE <i class="fa-solid fa-arrow-right"></i>
+                </a>
                 <img class="leg flex" src="style/img/legumes.png">
 
             </div>
 
             <div class="cat2">
-                Notre meilleure <br> sélection de <br> boissons
+                Notre meilleure <br> sélection de <br> boissons <br><br>
+                
+                <a class="JP" href="index.html" title="jen profite"> 
+                    J'EN PROFITE <i class="fa-solid fa-arrow-right"></i>
+                </a>
                 <img class="boiss flex" src="style/img/boisson.png">
             </div>
 
             <div class="cat3">
-                Produits <br> de beauté et <br> santé
+                Produits <br> de beauté et <br> santé <br><br>
+                
+                <a class="JP" href="index.html" title="jen profite"> 
+                    J'EN PROFITE <i class="fa-solid fa-arrow-right"></i>
+                </a>
                 <img class="beaut flex" src="style/img/beaute.png">
             </div>
 
@@ -162,32 +173,112 @@
 
 
         <div class="contP">
+
             <!--titres-->
             <div class="titresM">
-                <h2>Les plus populaires</h2>
-                <h3>Produits dans le vent</h3>
+                <h2 class="h2M">Les plus populaires</h2>
+                <h3 class="h3M">Produits dans le vent</h3>
             </div>
+
             <!--première rangée-->
             <div class="produits flex">
+
                 <!--1er produit-->
-                <div class="P1">
-                    <img src="style/img/beef.png" alt="boeuf">
-                    <h3>Steak de boeuf</h3>
-                    <span>15€</span>
-                    <span>12€</span>
-                    <input type="button" value="AJOUTER">
+                <div class="P1 flex">
+
+                    <!--coeur fav-->
+                    <div class="testet flex">
+                        <i class="fa-solid fa-heart fav"></i>
+                    </div>
+
+                    <!--img produit-->
+                    <img class="imgP"  src="style/img/beef.png" alt="boeuf">
+
+                    <div class="PB flex">
+
+                        <!--note produit-->
+                        <div class="cacahuete flex">
+
+                            <span class="CJ">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span class="CG">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                        
+                        </div>
+
+                        <!--nom produit-->
+                        <h3 class="H3PP flex">Steak de boeuf</h3>
+
+                        <!--prix-->
+                        <div class="prix flex">
+                            <span class="AP">15€ </span>
+                            <span class="NP">12€</span>
+                        </div>
+
+                        <!--bouton ajouter-->
+                        <input class="btnP" type="button" value="AJOUTER">
+
+                    </div>
+
                 </div>
+
+
                 <!--2eme produit-->
-                <div class="P1">
-                    <img src="style/img/broccoli.png" alt="broccoli">
-                    <h3>Broccoli</h3>
-                    <span>20€</span>
-                    <span>15€</span>
-                    <input type="button" value="AJOUTER">
+                <div class="P1 flex">
+
+                    <!--coeur fav-->
+                    <div class="testet flex">
+                        <i class="fa-solid fa-heart fav"></i>
+                    </div>
+
+                    <!--img produit-->
+                    <img class="imgP2" src="style/img/broccoli.png" alt="broccoli">
+
+                    <div class="PB flex">
+
+                        <!--note produit-->
+                        <div class="cacahuete flex">
+
+                            <span class="CJ">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <span class="CG">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                        
+                        </div>
+
+                        <!--nom produit-->
+                        <h3 class="H3PP flex" >Broccoli</h3>
+
+                        <!--prix-->
+                        <div class="prix flex">
+                            <span class="AP">20€ </span>
+                            <span class="NP">15€</span>
+                        </div>
+
+                        <!--bouton ajouter-->
+                        <input class="btnP" type="button" value="AJOUTER">
+
+                    </div>
+
                 </div>
+
+
                 <!--3eme produit-->
-                <div class="P1">
-                    <img src="style/img/fraises.png" alt="fraises">
+                <div class="P1 flex">
+                    <div class="testet flex">
+                        <i class="fa-solid fa-heart fav"></i>
+                    </div>
+                    <img class="imgP3" src="style/img/fraises.png" alt="fraises">
                     <h3>Fraises</h3>
                     <span>30€</span>
                     <span>20€</span>
@@ -197,24 +288,33 @@
             <!--deuxième rangée-->
             <div class="produits flex">
                 <!--1er produit-->
-                <div class="P1">
-                    <img src="style/img/miel.png" alt="miel">
+                <div class="P1 flex">
+                    <div class="testet flex">
+                        <i class="fa-solid fa-heart fav"></i>
+                    </div>
+                    <img class="imgP" src="style/img/miel.png" alt="miel">
                     <h3>Miel frais</h3>
                     <span>50€</span>
                     <span>40€</span>
                     <input type="button" value="AJOUTER">
                 </div>
                 <!--2eme produit-->
-                <div class="P1">
-                    <img src="style/img/lait.png" alt="lait">
+                <div class="P1 flex">
+                    <div class="testet flex">
+                        <i class="fa-solid fa-heart fav"></i>
+                    </div>
+                    <img class="imgP" src="style/img/lait.png" alt="lait">
                     <h3>Lait du jour</h3>
                     <span>10€</span>
                     <span>8€</span>
                     <input type="button" value="AJOUTER">
                 </div>
                 <!--3eme produit-->
-                <div class="P1">
-                    <img src="style/img/mangue.png" alt="mangue">
+                <div class="P1 flex">
+                    <div class="testet flex">
+                        <i class="fa-solid fa-heart fav"></i>
+                    </div>
+                    <img class="imgP" src="style/img/mangue.png" alt="mangue">
                     <h3>Boisson à la mangue</h3>
                     <span>22€</span>
                     <span>18€</span>
