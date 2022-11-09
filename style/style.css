@@ -15,21 +15,27 @@
     flex-direction: column;
 }
 
+
+h1 {
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 400;
+}
+
 /* body*/
 body{
     flex-direction: column;
     background: url(img/banner.jpg);
     background-position: 0; 
     background-repeat: no-repeat;
-    width: 100%;
+    background: cover;
     height: 50em;
     font-family: 'Amatic SC', cursive;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
 }
-
-h1 {font-weight: 400;}
-h3 {font-weight: 400;}
 
 /* header*/
 
@@ -42,7 +48,7 @@ header{
 }
 
 p{
-    font-size: 40px;
+    font-size: 3em;
 }
 
 /* navigation*/
@@ -62,13 +68,17 @@ nav{
     color: #a0cb23;
     background-color: white;
     border: 1px solid white;
-    border-radius: 60px;
-    padding: 10px;
-    margin: 8px;
+    border-radius: 3em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.iT:hover{
+    border-color: #a0cb23;
 }
 
 .menu{
-    width: 50px;
+    width: 60%;
     height: 3em;
     margin-left: auto;
     margin-right: auto;
@@ -79,8 +89,7 @@ nav{
 
 li{
     width: 5em;
-    padding: 5px;
-    margin: 10px;
+    margin: 1em;
 
 }
 
@@ -108,18 +117,18 @@ header div:nth-child(2) {
 }
 
 .texte :first-child{
-    font-size: 20px;
+    font-size: 1.3em;
     color: #a0cb23;
     margin-bottom: 1em;
   }
 
 .texte :nth-child(2){
-    font-size: 55px;
+    font-size: 3em;
 }
 
 .texte :nth-child(3){
     padding-top: 1em;
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
 
@@ -129,28 +138,26 @@ header div:nth-child(2) {
 
 .btn :first-child{
     color: white;
-    font-size: 14px;
+    font-size: 0.9em;
     border:solid 2px #a0cb23 ;
     background-color: #a0cb23;
-    width: 13em;
+    width: 12em;
     height: 4em;
-    margin: 3px;
     margin-right: 1em;
 
 }
 
 .btn :last-child{
     color: white;
-    font-size: 14px;
-    width: 13em;
+    font-size: 0.9em;
+    width: 12em;
     height: 4em;
-    margin: 3px;
     border:solid 2px #14462d;
     background-color: #14462d;
 }
 
 .cat1 {
-    font-size: 25px;
+    font-size: 1.564em;
     color: #f6fafb;
     width: 13em;
     height: 9em;
@@ -211,31 +218,31 @@ header div:nth-child(2) {
     color: white;
     width: 1em;
     height: 1em;
-    font-size: 10px;
+    font-size: 0.5em;
     text-align: center;
     padding: 1px;
     position: absolute;
-    margin-left: 200px;
-    margin-top: 7px;
+    margin-left: 23em;
+    margin-top: 1.3em;
 
 }
 
 .imgF{
     width: 22.5em;
-    border-top-left-radius: 700px;
-    border-left: 25px solid #afe223;
+    border-top-left-radius: 25em;
+    border-left: 2em solid #afe223;
 }
 
 .leg{
     align-items: flex-end;
-    margin-top: -6.9em;
-    margin-right: -6em;
-    margin-left: 4em;
+    position: relative;
+    left: 4.08em;
+    bottom: 6.88em;
 }
 
 
 .cat2 {
-    font-size: 25px;
+    font-size: 1.564em;
     color: #f6fafb;
     width: 13em;
     height: 9em;
@@ -250,14 +257,14 @@ header div:nth-child(2) {
 
 .boiss {
     align-items: flex-end;
-    margin-top: -6.6em;
-    margin-right: -6em;
-    margin-left: 6em;
+    position: relative;
+    left: 6em;
+    bottom: 6.88em;
 
 }
 
 .cat3 {
-    font-size: 25px;
+    font-size: 1.564em;
     color: #f6fafb;
     width: 13em;
     height: 9em;
@@ -271,9 +278,9 @@ header div:nth-child(2) {
 
 .beaut {
     align-items: flex-end;
-    margin-top: -7.7em;
-    margin-right: -6em;
-    margin-left: 6em;
+    position: relative;
+    left: 6em;
+    bottom: 8em;
 }
 
 .titresM{
@@ -282,13 +289,13 @@ header div:nth-child(2) {
 }
 
 .titresM:first-child{
-    font-size: 20px;
+    font-size: 1.3em;
     color: #a0cb23;
     margin-bottom: 1em;
 }
 
 .titresM:nth-child(2){
-    font-size: 55px;
+    font-size: 3em;
 }
 
 .contP{
@@ -362,11 +369,11 @@ header div:nth-child(2) {
 .fav{
     color: grey;
     border: 1px solid white;
-    border-radius: 100px;
+    border-radius: 10em;
     background-color: white;
     justify-content: end;
-    padding: 10px;
-    margin: 16px;
+    padding: 0.7em;
+    margin: 1em;
 }
 
 .fav:hover{
@@ -376,8 +383,8 @@ header div:nth-child(2) {
 
 .JP{
     color: #f6fafb;
-    font-size: 16px;
-    margin-top: 15px;
+    font-size: 0.7em;
+    margin-top: 0.5em;
 }
 
 .testet{
@@ -412,7 +419,7 @@ header div:nth-child(2) {
 .btnP{
     margin: auto;
     color: white;
-    font-size: 14px;
+    font-size: 0.8em;
     width: 9em;
     height: 3em;
     margin-top: 1em;
@@ -443,25 +450,25 @@ header div:nth-child(2) {
 
 .H3PP{
     justify-content: center;
-    font-size: 25px;
+    font-size: 1.5em;
     margin-bottom: 1em;
 }
 
 .prix{
-    width: 10em;
+
     justify-content: center;
 }
 
 .AP{
     color: rgba(128, 128, 128, 0.696);
     text-decoration: line-through;
-    font-size: 20px;
+    font-size: 1em;
     margin-right: 1em;
 }
 
 .NP{
     color: #a0cb23 ;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .hot{
