@@ -1,0 +1,447 @@
+/* init */
+a{
+    text-decoration: none;
+}
+
+/* fin init */
+
+/* backgrounds */
+
+header{
+    flex-direction: column;
+    background-image: url(../img/bg_fruit.png);
+    background-repeat: no-repeat; 
+    background-position: top left;
+    background-size: 20%;
+}
+
+body{
+    flex-direction: column;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+}
+
+/* fin backgrounds */
+
+
+/* ----------> DÉBUT HEADER <---------- */
+
+
+    /* délimitation nav*/
+    
+    .navbar{
+        width: 60%;
+
+        
+    }
+
+    /*fin delimitation*/
+
+    /* nav menu */
+
+    .navbar-nav{
+        margin-left: 15%;
+    }
+
+    .nav-item{
+        width: 6em;
+    } 
+
+    /* fin nav menu */
+
+    /* icones */
+
+    .icones{
+        color: #a0cb23;
+        background-color: white;
+        border-radius: 50%;
+        padding: 0.7em;
+        margin: 0.3em;
+    }
+
+    .icones:hover{
+        color: white;
+        background-color: #a0cb23;
+    }
+
+    /* fin icones */
+
+
+
+    /* jumbotron */
+
+    .jumbotron{
+        margin-left: 20%;
+        justify-content: flex-start;
+        margin-top: 12em;
+        margin-bottom: 25em;
+    }
+
+        /* titres textes */
+
+    .jumbotron p:first-of-type{
+        color: #a0cb23;
+        font-size: 1.5em;
+    }
+
+    .jumbotron p:nth-of-type(2){
+        padding-top: 0.5em;
+        color: black;
+        font-size: 1em;
+    }
+
+    h1:first-of-type{
+        padding-top: 0.2em;
+        color: black;
+        font-size: 4.3em;
+    }
+
+        /*  fin titres textes */
+
+        /* boutons */
+
+    .jumbotron .bouton{
+        margin-top: 4em;
+    }
+
+
+    .btn{
+    color: white;
+    font-size: 0.8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 1em;
+    }
+
+    .btn:first-of-type{
+        background-color: #a0cb23;
+        border-radius: 0%;
+    }
+
+    .btn:nth-of-type(2){
+        background-color: #14462d;
+        border-radius: 0%;
+    }
+
+        /* fin boutons */
+
+    /* fin jumbotron */
+
+/* ----------> FIN HEADER <---------- */
+
+
+/* ----------> DÉBUT MAIN <---------- */
+
+    .categories{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .CadreCategories{
+        font-size: 1.564em;
+        color: #f6fafb;
+        height: 11em;
+        margin-bottom: 5em;
+        margin-right: 1em;
+        padding-left: 1em;
+        padding-top: 3em;
+    }
+
+    .CatLegumes{
+        background-image: url(../img/legumes.png), linear-gradient(-70deg, #95dcd6, #92ddd8);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+
+    .CatBoissons{
+        background-image: url(../img/boisson.png), linear-gradient(-70deg, #f58313, #fb9823);
+        background-repeat: no-repeat;
+        background-position: bottom 17px right 17px, 0;
+    }
+
+    .CatBeaute{
+        background-image: url(../img/beaute.png), linear-gradient(-70deg, #a0cb23, #afe223);
+        background-repeat: no-repeat;
+        background-position: bottom 20px right 17px, 0;
+    }
+
+    .BoutonJP{
+        color: #f6fafb;
+        font-size: 0.5em;
+        margin-top: 0.5em;
+    }
+
+
+
+    .produits{
+        width: 70%;
+    }
+
+
+    .TitresProduits{
+        text-align: center;
+    }
+
+    .TitresProduits p:nth-child(1){
+        color: #a0cb23;
+        font-size: 1.5em;
+    }
+
+    .TitresProduits p:nth-child(2){
+        color: black;
+        font-size: 2em;
+        padding-bottom: 2em;
+    }
+
+    .DeuxRangée{
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+
+    .card{
+        height: 30em;
+        background-color: #f6fafb;
+        border: 1px solid #f6fafb;
+        border-radius: 0%;
+        margin: auto;
+    }
+
+    .card:hover{
+        border: 1px solid #a0cb23;
+    }
+
+    .imgProduit{
+        padding-top: 2em;
+        padding-bottom: 3em;
+    }
+
+    .imgProduit2{
+        padding-bottom: 2em;
+    }
+
+    .imgProduit3{
+        padding-bottom: 1em;
+    }
+
+
+    .hot{
+        border: 1px solid #da485b;
+        background-color: #da485b;
+        text-align: center;
+        color: white;
+        font-size: 1em;
+        padding: 5px;
+    }
+
+    .heart{
+        color: grey;
+        border: 1px solid white;
+        border-radius: 10em;
+        background-color: white;
+        padding: 0.7em;
+
+    }
+
+    .heart:hover{
+        color: white;
+        background-color: #a0cb23;
+    }
+
+    .note{
+        margin-bottom: 1em;
+    }
+
+    .etoilesJaunes{
+        color: rgb(255, 217, 0);
+    }
+
+    .etoilesGrises{
+        color: grey;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    .prix{
+        margin-bottom: 2em;
+    }
+
+    .ancienPrix{
+        color: rgba(128, 128, 128, 0.696);
+        text-decoration: line-through;
+        font-size: 1em;
+        margin-right: 1em;
+        margin-bottom: 0;
+    }
+
+    .nouveauPrix{
+        color: #a0cb23 ;
+        font-size: 1em;
+    }
+
+    .btnAjouter{
+        text-decoration: none;
+        color: white;
+        font-size: 0.8em;
+        padding: 1em;
+        background-color: #14462d;
+    }
+
+    .btnAjouter:hover{
+        color: white;
+        background-color: #a0cb23;
+    }
+
+/* ----------> FIN MAIN <---------- */
+
+
+/* ----------> DÉBUT FOOTER <---------- */
+
+    footer{
+        color: #f6fafb;
+        border-left: 6px solid yellow;
+        width: 60%;
+        height: 15em;
+        background: linear-gradient(-70deg, #ADCE49, #afe223);
+        background-repeat: no-repeat;
+        margin: auto;
+        margin-bottom: 10em;
+    }
+
+    .Cadre1{
+        margin-left: 2em;
+    }
+
+    .TxtFooter1{
+        font-size: 4em;
+        color: yellow;
+    }
+
+    .TxtFooter2{
+        font-size: 0.3em;
+        color: #f6fafb;
+    }
+
+    .BoutonJPFooter{
+        color: #f6fafb;
+        font-size: 1em;
+        margin-top: 0.5em;
+    }
+
+
+    .TxtFooter3{
+        font-size: 2em;
+    }
+
+    .CadreImgFooter{
+        width: 100%;
+        height: 15em;
+        background-image: url(../img/panier.jpg);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: cover;
+        border-left: 20px solid #CAEA63;
+        border-top-left-radius: 80%;
+    }
+
+/* ----------> FIN FOOTER <---------- */
+
+
+@media (max-width: 575.98px){ 
+
+    .jumbotron{
+        margin-left: 0%;
+        justify-content: flex-start;
+        background-color: rgba(211, 211, 211, 0.817);
+    }
+
+    .card{
+        margin-bottom: 1em;
+    }
+
+    footer{
+        width: 90%;
+        height: 30em;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    
+    .jumbotron{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(128, 128, 128, 0.408);
+        margin-bottom: 5em;
+    }
+
+    .jumbotron p:first-of-type{
+        font-size: 2em;
+        background-color: rgba(128, 128, 128, 0.702);
+    }
+
+    .card{
+        margin-bottom: 1em;
+    }
+
+    .CadreCategories{
+        padding-top: 0.5em;
+        font-size: 2.5em;
+        height: 7.5em;
+        margin-bottom: 1em;
+    }
+
+    footer{
+        width: 70%;
+        height: 30em;
+    }
+
+
+
+    }
+
+
+    @media (min-width: 768px) and (max-width: 991.98px){
+
+        .jumbotron{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgba(128, 128, 128, 0.408);
+            margin-bottom: 5em;
+        }
+
+        .jumbotron p:first-of-type{
+            font-size: 2em;
+            background-color: rgba(128, 128, 128, 0.702);
+            margin: auto;
+        }
+
+        footer{
+            width: 70%;
+            height: 27em;
+        }
+
+        .TxtFooter1{
+            font-size: 5em;
+        }
+
+        .TxtFooter2{
+            font-size: 0.3em;
+        }
+
+        .CadreImgFooter{
+            margin-left: 1.2em;
+        }
+    
+
+    }
+
+    @media (min-width: 992px){
+
+    }

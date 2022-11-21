@@ -1,0 +1,480 @@
+/* 
+
+    /* initialisaton
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Amatic SC', cursive;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+
+    h1 {
+        font-weight: 400;
+    }
+
+    h3 {
+        font-weight: 400;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* body
+    */
+    .bg{
+        flex-direction: column;
+        background: url(img/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top left;
+    }
+
+  
+
+    header{
+        background: url(img/bg_fruit.png);
+        background-repeat: no-repeat;
+        background-size: 15%;
+        background-position: top left;
+        width: 100%;
+        height: 50%;
+    }
+
+    /*
+
+    p{
+        font-size: 3em;
+    }
+
+    /* navigation
+
+    nav{
+        margin-left: 10em;
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 10em;
+        height: 4em;
+
+    }
+    */
+
+    .iT{
+        color: #a0cb23;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 3em;
+    }
+
+    /*
+
+    .iT:hover{
+        border-color: #a0cb23;
+    }
+
+    .menu{
+        width: 60%;
+        height: 3em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    li{
+        width: 5em;
+        margin: 1em;
+
+    }
+
+    .test{
+        list-style: none;
+        justify-content: space-around;
+
+    }
+
+
+
+
+        
+    header div:nth-child(2) {
+        margin-top: 15em;
+        margin-left: 23em;
+        align-items: flex-end;
+    }
+
+    .texte{
+        width: 30em;
+    }
+
+    .texte :first-child{
+        font-size: 1.3em;
+        color: #a0cb23;
+        margin-bottom: 1em;
+    }
+
+    .texte :nth-child(2){
+        font-size: 3em;
+    }
+
+    .texte :nth-child(3){
+        padding-top: 1em;
+        font-size: 1.3em;
+    }
+
+
+    .btn {
+        margin-top: 3em;
+    }
+
+    .btn :first-child{
+        color: white;
+        font-size: 0.9em;
+        border:solid 2px #a0cb23 ;
+        background-color: #a0cb23;
+        width: 12em;
+        height: 4em;
+        margin-right: 1em;
+
+    }
+
+    .btn :last-child{
+        color: white;
+        font-size: 0.9em;
+        width: 12em;
+        height: 4em;
+        border:solid 2px #14462d;
+        background-color: #14462d;
+    }
+
+    .cat{
+        width: 60%;
+        margin: auto;
+        justify-content: space-between;
+
+    }
+
+    .boxcat{
+        font-size: 1.564em;
+        color: #f6fafb;
+        width: 13em;
+        height: 9em;
+        margin-top: 20em;
+        margin-bottom: 5em;
+        margin-right: 1em;
+        padding-left: 1em;
+        padding-top: 3em;
+    }
+
+    .cat :first-child{
+        background-image: url(img/legumes.png), linear-gradient(-70deg, #95dcd6, #92ddd8);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+
+
+
+    .cat :nth-child(2){
+        background-image: url(img/boisson.png), linear-gradient(-70deg, #f58313, #fb9823);
+        background-repeat: no-repeat;
+        background-position: bottom 17px right 17px, 0;
+    }
+
+    .cat :nth-child(3){
+        background-image: url(img/beaute.png), linear-gradient(-70deg, #a0cb23, #afe223);
+        background-repeat: no-repeat;
+        background-position: bottom 23px right 17px, 0;
+    }
+
+
+
+    .bas{
+        color: #f6fafb;
+        border-left: 6px solid yellow;
+        width: 60%;
+        height: 15em;
+        background-image: url(img/panier.jpg), linear-gradient(-70deg, #a0cb23, #afe223);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-image: border-top-left-radius: 25em;
+
+        margin: auto;
+        margin-bottom: 10em;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .imgBgF {
+        width: 20em;
+        height: 10em;;
+        border-top-left-radius: 25em;
+        border-left: 2em solid #afe223;
+    }
+
+
+
+    .notif{
+        border-radius: 100%;
+        border: 1px solid #14462d;
+        background-color: #14462d;
+        color: white;
+        width: 1em;
+        height: 1em;
+        font-size: 0.5em;
+        text-align: center;
+        padding: 1px;
+        position: absolute;
+        margin-left: 23em;
+        margin-top: 1.3em;
+
+    }
+    /*
+    .imgF{,;
+        width: 22.5em;
+        border-top-left-radius: 25em;
+        border-left: 2em solid #afe223;
+    }
+    
+
+
+    .titresM{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titresM:first-child{
+        font-size: 1.3em;
+        color: #a0cb23;
+        margin-bottom: 1em;
+    }
+
+    .titresM:nth-child(2){
+        font-size: 3em;
+    }
+
+    .contP{
+        width: 60%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .produits{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .P1{
+        flex-direction: column;
+        width: 22em;
+        height: 30em;
+        margin-bottom: 5em;
+        border: 1px solid #f6fafb;
+        background-color: #f6fafb;
+    }
+
+    .P1:hover{
+        border: 1px solid #a0cb23;
+    }
+
+    .imgP{
+        width: 15em;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .imgP2{
+        width: 13em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -1em;
+
+    }
+
+    .imgP3{
+        width: 13em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -1em;
+    }
+
+    .imgP4{
+        width: 8em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -1em;
+    }
+
+    .imgP5{
+        width: 10em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2em;
+    }
+
+    .imgP6{
+        width: 13em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -1em;
+    }
+
+    .fav{
+        color: grey;
+        border: 1px solid white;
+        border-radius: 10em;
+        background-color: white;
+        justify-content: end;
+        padding: 0.7em;
+        margin: 1em;
+    }
+
+    .fav:hover{
+        color: white;
+        background-color: #a0cb23;
+    }
+
+    .JP{
+        color: #f6fafb;
+        font-size: 0.7em;
+        margin-top: 0.5em;
+    }
+
+    .testet{
+        justify-content: flex-end;
+    }
+
+    .testet1{
+        justify-content: space-between;
+    }
+
+
+
+    .h2M{
+        font-size: 17px;
+        color: #a0cb23;
+        margin-bottom: 1em;
+    }
+
+    .h3M{
+        font-size: 37px;
+        color: black;
+        margin-bottom: 1em;
+    }
+
+    .PB{
+        margin-top: 5em;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btnP{
+        margin: auto;
+        color: white;
+        font-size: 0.8em;
+        width: 9em;
+        height: 3em;
+        margin-top: 1em;
+        border:solid 2px #14462d;
+        background-color: #14462d;
+    }
+
+    .btnP:hover{
+        border: solid 2px #a0cb23;
+        background-color: #a0cb23;
+    }
+
+    .cacahuete{
+        width: 10em;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    .CJ{
+        color: rgb(255, 217, 0);
+        margin-right: 0.3em;
+    }
+
+    .CG{
+        color: grey;
+    }
+
+    .H3PP{
+        justify-content: center;
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    .prix{
+
+        justify-content: center;
+    }
+
+    .AP{
+        color: rgba(128, 128, 128, 0.696);
+        text-decoration: line-through;
+        font-size: 1em;
+        margin-right: 1em;
+    }
+
+    .NP{
+        color: #a0cb23 ;
+        font-size: 1em;
+    }
+
+    .hot{
+        border: 1px solid #da485b;
+        background-color: #da485b;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        padding: 6px;
+        width: 2.5em;
+        height: 1em;
+    }
+
+    .txtF{
+        justify-content: baseline;
+        margin-left: 5em;
+
+    }
+
+    .JPF{
+        text-align: left;
+        font-size: 17px;
+        color: white;
+        margin-top: 1em;
+    }
+
+    .Preduc{
+        font-size: 50px;
+        color: yellow;
+        margin-bottom: 0.5em;
+    }
+
+    .Ptxt{
+        font-size: 17px;
+        color: white;
+        margin-top: 2em;
+        margin-left: 0.5em;
+
+*/
+
